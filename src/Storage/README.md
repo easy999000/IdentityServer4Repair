@@ -1,3 +1,5 @@
-# IdentityServer4.Storage
+This project is used to fix some bugs discovered in id4.
 
-IdentityServer4.Storage contains all the models and storage interfaces for IdentityServer 4 configuration data.
+No functional additions will be made
+
+Upgrade  to. net8.0
