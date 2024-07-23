@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 
-    <PackageId>IdentityServer4.Storage.Repair</PackageId>
+    <PackageId>IdentityServer4Repair.Storage</PackageId>
     <Description>This project is used to fix some bugs discovered in id4. 
 No functional additions will be made 
 Upgrade to. net8.0</Description>
@@ -29,10 +29,10 @@ Upgrade to. net8.0</Description>
   <PropertyGroup>
     <ContinuousIntegrationBuild Condition="'$(TF_BUILD)' == 'true'">True</ContinuousIntegrationBuild>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">True</ContinuousIntegrationBuild>
-    <Title>IdentityServer4.Repair</Title>
+    <Title>IdentityServer4Repair</Title>
     <Version>8.0.1</Version>
     <Company>noone</Company>
-    <Product>IdentityServer4.Storage.Repair</Product>
+    <Product>IdentityServer4Repair.Storage</Product>
     <RepositoryUrl>https://github.com/easy999000/IdentityServer4Repair.git</RepositoryUrl>
   </PropertyGroup>
 
