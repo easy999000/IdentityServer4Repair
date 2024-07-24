@@ -1,16 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   
   <PropertyGroup>
-    <PackageId>IdentityServer4</PackageId>
+    <PackageId>IdentityServer4Repair</PackageId>
     <TargetFramework>net8.0</TargetFramework>
-    <Description>OpenID Connect and OAuth 2.0 Framework for ASP.NET Core</Description>
-    <Authors>Brock Allen;Dominick Baier</Authors>
-    <AssemblyName>IdentityServer4</AssemblyName>
+    <Description>This project is used to fix some bugs discovered in id4. 
+No functional additions will be made 
+Upgrade to. net8.0</Description>
+    <Authors>noone</Authors>
+    <AssemblyName>IdentityServer4Repair</AssemblyName>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
-    <PackageProjectUrl>https://github.com/IdentityServer/IdentityServer4</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/easy999000/IdentityServer4Repair</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/IdentityServer/IdentityServer4/releases</PackageReleaseNotes>
+    <PackageReleaseNotes></PackageReleaseNotes>
 
     <!-- Declare that the Repository URL can be published to NuSpec -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -29,10 +31,20 @@
   <PropertyGroup>
     <ContinuousIntegrationBuild Condition="'$(TF_BUILD)' == 'true'">True</ContinuousIntegrationBuild>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">True</ContinuousIntegrationBuild>
+    <Version>8.0.1</Version>
+    <Title>IdentityServer4Repair</Title>
+    <Company>noone</Company>
+    <Product>IdentityServer4Repair</Product>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/easy999000/IdentityServer4Repair.git</RepositoryUrl>
   </PropertyGroup>
   
   <ItemGroup>
     <None Include="../../../icon.jpg" Pack="true" Visible="false" PackagePath="" />
+    <None Include="..\..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

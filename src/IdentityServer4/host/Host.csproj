@@ -23,6 +23,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="All" Version="8.0.7" />
     <PackageReference Include="System.Security.Principal.Windows" Version="5.0.0" />
     
-    <ProjectReference Include="..\src\IdentityServer4.csproj" />
+    <ProjectReference Include="..\src\IdentityServer4Repair.csproj" />
   </ItemGroup>
 </Project>
