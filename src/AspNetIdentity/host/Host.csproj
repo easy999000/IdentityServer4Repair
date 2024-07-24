@@ -21,8 +21,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
     <PackageReference Include="System.Formats.Asn1" Version="8.0.1" />
     <PackageReference Include="System.Security.Principal.Windows" Version="5.0.0" />
-    
-    <ProjectReference Include="..\src\IdentityServer4.AspNetIdentity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\IdentityServer4Repair.AspNetIdentity.csproj" />
   </ItemGroup>
 
 </Project>
