@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF5DAC33-08AC-45EE-9772-4FF39FB09E57}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.EntityFramework.Storage", "src\IdentityServer4.EntityFramework.Storage.csproj", "{5302DAB3-1662-4956-97AA-5EA5E85B10F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4Repair.EntityFramework.Storage", "src\IdentityServer4Repair.EntityFramework.Storage.csproj", "{5302DAB3-1662-4956-97AA-5EA5E85B10F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{712ED94A-F982-4667-A9CE-E8F21900BBED}"
 EndProject
@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServer", "migrations\Sql
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{07C56E10-A807-4372-ACD9-ADED2D099BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "host\ConsoleHost\ConsoleHost.csproj", "{2AA5AC6B-531B-426E-AD38-5B03F1949CF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleHost", "host\ConsoleHost\ConsoleHost.csproj", "{2AA5AC6B-531B-426E-AD38-5B03F1949CF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
