@@ -11,6 +11,9 @@ using IdentityServer.IntegrationTests.Clients.Setup;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Xunit;
+using System.Text.Json;
+using System.Text.Json.Serialization.Metadata;
+using Newtonsoft.Json.Linq;
 
 namespace IdentityServer.IntegrationTests.Clients
 {
@@ -118,8 +121,8 @@ namespace IdentityServer.IntegrationTests.Clients
         }
 
         private Dictionary<string, object> GetFields(TokenResponse response)
-        {
-            return response.Json.ToObject<Dictionary<string, object>>();
+        { 
+            return response.Json?.Deserialize<Dictionary<string, object>>();
         }
     }
 }

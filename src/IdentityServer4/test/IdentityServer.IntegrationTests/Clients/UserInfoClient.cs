@@ -192,9 +192,8 @@ namespace IdentityServer.IntegrationTests.Clients
             {
                 Address = UserInfoEndpoint,
                 Token = response.AccessToken
-            });
-
-            roles = ((JArray)userInfo.Json["role"]).Select(x => x.ToString()).ToArray();
+            }); 
+            roles =  userInfo.Json?.GetProperty("role").EnumerateArray().Select(x => x.ToString()).ToArray();
             roles.Length.Should().Be(2);
             roles.Should().Contain("Geek");
             roles.Should().Contain("Developer");
