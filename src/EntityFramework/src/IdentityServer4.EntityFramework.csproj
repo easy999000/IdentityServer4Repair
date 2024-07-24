@@ -33,8 +33,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="IdentityServer4" Version="4.1.2" />
-    <PackageReference Include="IdentityServer4.EntityFramework.Storage" Version="4.1.2" />
+    
+    <PackageReference Include="IdentityServer4Repair" Version="8.0.1" />
+    
+    <PackageReference Include="IdentityServer4Repair.EntityFramework.Storage" Version="8.0.1" />
     
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" Version="8.0.0" />
   </ItemGroup>
